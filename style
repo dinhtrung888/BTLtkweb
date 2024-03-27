@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+#wrapper {
+  height: 1850px;
+  width: 1490px;
+  margin: auto;
+}
+#header {
+  color: rgb(178, 180, 85);
+  padding: 29px;
+  text-align: center;
+  font-size: 30pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#menu li {
+  display: inline;
+  padding: 30px 30px;
+}
+#menu li a {
+  font-size: 14pt;
+  text-decoration: none;
+  color: black;
+}
+#menu li a:hover {
+  color: red;
+}
+.picture img {
+  width: 1300px;
+  max-width: 100vw;
+  height: 500px;
+  margin-left: 95px;
+}
+#text p {
+  text-align: center;
+}
+
+/* css cua slideshow*/
+.slider {
+  width: 1300px;
+  max-width: 100vw;
+  height: 700px;
+  margin-top: 30px;
+  margin-left: 95px;
+  position: relative;
+  overflow: hidden;
+}
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  width: max-content;
+  transition: 1s;
+}
+.list img {
+  width: 1300px;
+  max-width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+.buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff5;
+  color: aliceblue;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+.dots {
+  position: absolute;
+  bottom: 10px;
+  color: aliceblue;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.dots li.active {
+  width: 30px;
+}
+
+#text {
+  width: 1300px;
+  margin-left: 95px;
+  margin-top: 40px;
+}
+#text p {
+  text-align: center;
+  font-size: 21pt;
+  text-indent: 20px;
+}
+
+#boad #title_1 h2 {
+  padding-left: 150px;
+}
+#boad {
+  display: flex;
+  flex-direction: column;
+  width: 694px;
+  height: 950px;
+  background-color: antiquewhite;
+  margin-left: 30px;
+}
+.pic {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.pic.left {
+  width: 100px;
+  height: 100px;
+}
+.left img {
+  width: 100px;
+}
+.pic.right {
+  width: 470px;
+  height: 300px;
+  margin-left: 20px;
+}
+.right a {
+  text-decoration: none;
+  font-family: initial;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 30px;
+  color: black;
+  align-self: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+#Soa {
+  width: 694px;
+  height: 950px;
+  background-color: antiquewhite;
+  margin-left: 40px;
+}
+.ct1 {
+  text-align: center;
+}
+.ct2 h4 a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ct2 h4 a:hover {
+  color: red;
+}
+.ct2 {
+  padding-left: 70px;
+}
+.ct3 {
+  text-align: center;
+}
+.ct3 a img {
+  width: 600px;
+  height: 650px;
+}
+.news_1 {
+  width: 694px;
+  height: 300px;
+  background-color: antiquewhite;
+  line-height: 0.8;
+  margin-left: 30px;
+}
+.news_1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-left: 30px;
+  font-size: 14pt;
+}
+.news_1 p {
+  font-size: 14pt;
+  padding-left: 30px;
+}
+.news_2 {
+  width: 694px;
+  height: 300px;
+  background-color: antiquewhite;
+  margin-left: 45px;
+}
+.news_2 p {
+  line-height: 1.8;
+  font-size: 14pt;
+  padding-left: 20px;
+}
+#footer {
+  background-color: #3f3d3d;
+  width: 1520px;
+  height: 146px;
+  margin-top: 180px;
+  display: flex;
+  flex-direction: row;
+}
+.address {
+  width: 510px;
+  height: 123px;
+}
+.social {
+  width: 510px;
+  height: 123px;
+}
+.contact {
+  width: 510px;
+  height: 123px;
+}
+#footer h3 {
+  color: aliceblue;
+  text-align: center;
+}
+#footer a {
+  color: aliceblue;
+}
+.link {
+  text-align: center;
+  line-height: 1.3;
+}
+.link a {
+  text-decoration: none;
+}
+
+.address p {
+  text-align: center;
+  color: aliceblue;
+  line-height: 1.3;
+}
